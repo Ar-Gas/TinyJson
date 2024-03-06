@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.26)
-project(TinyJson)
 
-set(CMAKE_CXX_STANDARD 17)
+if (NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Release)
+endif()
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(TinyJson main.cpp
-        cmake-build-debug/Val.cpp
-)
+project(main LANGUAGES CXX)
+
+add_executable(main main.cpp)

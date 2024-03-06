@@ -1,3 +1,0 @@
-E:/Project/TinyJson/cmake-build-debug/CMakeFiles/TinyJson.dir
-E:/Project/TinyJson/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Project/TinyJson/cmake-build-debug/CMakeFiles/rebuild_cache.dir
